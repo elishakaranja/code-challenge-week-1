@@ -18,8 +18,9 @@ function speedDetector(speed) {
       return "Ok";
 
     } else if (speed > limit) {
-      // If the speed is above the limit, calculate the demerit points
-      const points = (speed - limit) / 5;
+      // If the speed is above the limit, calculate the demerit points and round down if result is decimal 
+      
+      const points = Math.floor((speed - limit) / 5);
       
 
   

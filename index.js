@@ -1,6 +1,6 @@
 // Author: [ELISHA DOMINIC]
 // Date: [10/2023]
-// Description: GRADE calculator program written in JavaScript.
+// Description: GRADEcalculator program written in JavaScript.
 
 // Import the 'prompt-sync' library to read user input from the console
 let prompt = require('prompt-sync')();
